@@ -51,7 +51,7 @@ public class RekeningBank {
         
         if (nominal > this.saldo) {
             System.out.println(
-                    "ERROR Transfer Gagal Saldo tidak Mencukupi"
+                    "ERROR: Transfer Gagal Saldo tidak Mencukupi"
             );
             return;
         }
