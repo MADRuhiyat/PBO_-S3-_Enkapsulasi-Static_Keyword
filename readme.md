@@ -1,9 +1,5 @@
-
-# Project Title
-
-PBO Coding Practice (SEMESTER 3) `ENKAPSULASI STATIC KEYWORD`
-
 # Sistem Rekening Bank Java
+PBO Coding Practice (SEMESTER 3) `ENKAPSULASI STATIC KEYWORD`
 
 Program sederhana Sistem Rekening Bank menggunakan bahasa Java.
 
