@@ -23,6 +23,9 @@ public class RekeningBank {
         totalRekening++;
     }
 
+    public RekeningBank() {
+    }
+
     public double getSaldo() {
         return this.saldo;
     }
@@ -32,7 +35,7 @@ public class RekeningBank {
             this.saldo = saldoBaru;
         } else {
             System.out.println(
-                    "ERROR: Saldo tidak boleh negatif"
+                    "ERROR: Saldo tidak boleh Negatif"
             );
         }
     }
@@ -41,13 +44,14 @@ public class RekeningBank {
 
         if (nominal <= 0) {
             System.out.println(
-                    "ERROR: Transfer Gagal, Nominal transfer harus lebih dari 0"
+                    "ERROR: Transfer Gagal, Nominal Transfer harus lebih dari 0"
             );
             return;
         }
+        
         if (nominal > this.saldo) {
             System.out.println(
-                    "ERROR Transfer gagal saldo tidak mencukupi"
+                    "ERROR Transfer Gagal Saldo tidak Mencukupi"
             );
             return;
         }

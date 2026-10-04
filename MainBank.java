@@ -6,8 +6,8 @@ public class MainBank {
         System.out.println("SISTEM REKENING BANK");
         System.out.println("=============================================");
 
-        RekeningBank rekening1 = new RekeningBank("001", "MAD", 100000);
-        RekeningBank rekening2 = new RekeningBank("002", "PIO", 200000);
+        RekeningBank rekening1 = new RekeningBank("1234567890", "MAD", 100000);
+        RekeningBank rekening2 = new RekeningBank("9876543210", "PIO", 200000);
         System.out.println("=============================================");
 
         System.out.println("SALDO AWAL");
@@ -18,7 +18,7 @@ public class MainBank {
 
         System.out.println("TRANSFER");
 
-        rekening1.transfer(25000, rekening2);
+        rekening1.transfer(50000, rekening2);
         System.out.println("=============================================");
 
         System.out.println("SALDO SETELAH TRANSFER");
